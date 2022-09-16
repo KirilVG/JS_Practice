@@ -1,0 +1,72 @@
+body {
+    font: 28px "Century Gothic", Futura, sans-serif;
+    margin: 40px;
+    background-color: black;
+    color: white;
+}
+
+ol, ul {
+    padding-left: 60px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 20px;
+}
+
+.square {
+    color: white;
+    background:  black;
+    border: 2px solid white;
+    float: left;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 68px;
+    height: 68px;
+    margin-right: -2px;
+    margin-top: -2px;
+    padding: 0;
+    text-align: center;
+    width: 64px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-nsvigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 40px;
+}
+
+.stateSelctBtn:hover {
+    font-weight: bold;
+}
+
+.winning {
+    color: black;
+    background-color: gold;
+}
+
+.historybtn {
+    background-color: white;
+    border-radius: 5px;
+}
+.historybtn:hover {
+    background-color: gold;
+    border-radius: 5px;
+}
+
