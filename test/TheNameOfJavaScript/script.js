@@ -1,3 +1,5 @@
-let JSname=prompt("What is the “official” name of JavaScript?’","");
+let JSname = prompt("What is the “official” name of JavaScript?’", "");
 
-JSname=="ECMAScript" ? alert("Correct") : alert("You don’t know? ECMAScript!");
+JSname == "ECMAScript"
+  ? alert("Correct")
+  : alert("You don’t know? ECMAScript!");
